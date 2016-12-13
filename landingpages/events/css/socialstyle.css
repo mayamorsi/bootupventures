@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://www.markmurray.co/codepen/entypostyle.css);
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.socialcontainer {
+  width: 25em;
+  margin: 0 auto 3em auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0.5em 0;
+  float: left;
+  clear: both;
+}
+.row i {
+  cursor: pointer;
+  display: inline-block;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.row:nth-child(8) i {
+  padding: 1em;
+  margin: 0;
+  color: white;
+  border-bottom: 5px solid #8e8e8e;
+}
+.row:nth-child(8) i:hover {
+  border-bottom: 5px solid #939393;
+}
+.row:nth-child(8) i:nth-child(2n) {
+  background: #aaa;
+}
+.row:nth-child(8) i:nth-child(2n + 1) {
+  background: #8e8e8e;
+}
+.row:nth-child(8) i:nth-child(1) {
+  border-left: none;
+}
+.row:nth-child(8) i:nth-child(5) {
+  border-right: none;
+}
+.row:nth-child(8) i:nth-child(1):hover {
+  background: #3b5998;
+  border-bottom: 5px solid #4c70ba;
+}
+.row:nth-child(8) i:nth-child(2):hover {
+  background: #00a0d1;
+  border-bottom: 5px solid #05c4ff;
+}
+.row:nth-child(8) i:nth-child(3):hover {
+  background: #db4a39;
+  border-bottom: 5px solid #e37164;
+}
+.row:nth-child(8) i:nth-child(4):hover {
+  background: #c8232c;
+  border-bottom: 5px solid #de4049;
+}
+.row:nth-child(8) i:nth-child(5):hover {
+  background: #ea4c89;
+  border-bottom: 5px solid #ef7aa7;
+}
+
+

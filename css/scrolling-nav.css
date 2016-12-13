@@ -1,0 +1,75 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:770px) {
+    .navbar {
+       /* padding: 20px 0;*/
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. */
+
+.intro-section {
+    text-align: center;
+    background: white;
+
+}
+
+.space-section {
+
+}
+
+.events-section {
+/*    height: 100%;       */
+/*    padding-top: 150px; */
+/*    text-align: center; */
+
+}
+
+.experts-section {
+
+}
+
+.club-section {
+
+}
+
+.accelorator-section {
+
+}
+
+.corporate-section {
+
+}
+
+.capital-section {
+}
+
+.angels-section {
+
+}
+
+.academy-section {
+
+}

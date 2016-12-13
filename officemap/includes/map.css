@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.grey {color: #aaa;}
+
+/*  Button   */
+a.btn1 { font-size: 1.2em; text-decoration: none; color:#fff; border: 1px solid #fff; padding: 4px 15px; transition:background-color .5s;background-color: rgba(0,0,0,.3);}
+
+a.btn1:hover { background-color: rgba(255,255,255,.3);}
+
+/*  City Info   */
+.office_detail_container { display: none; }
+.office_detail_container .office_detail { width: 300px; border: 1px solid #333; }
+
+/*  Interactive Map Container */
+.map_container {
+	background-image: url(../images/template/map.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 765px;
+	width: 760px;
+	position: relative;
+	color: #333;
+	font-family: Arial;
+	font-size: 12px;
+	float: right;
+	margin: 0px 0px 0px 20px;
+}
+
+.map_container .clear_both { clear: both; line-height: 1px; }
+
+.map_container .office_info h2 {
+	margin: 0px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.map_container .office_info h3 {
+	margin: 0px 0px 12px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #000;
+}
+.map_container p { margin: 0px 0px 12px 0px; }
+
+.map_container a, a:visited { color: #AA0000; margin: 0px 10px 0px 0px; }
+
+
+.map_container a.dot {
+	background-image: url(../images/template/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.map_container a.dot.selected {
+	background-position: 0px -20px;
+}
+.map_container a.dot:hover {
+	background-position: 0px -20px;
+}
+
+/*  Vacant */
+
+.map_container a.dotvacant {
+	background-image: url(../images/template/dots.png);
+	background-repeat: no-repeat;
+	background-position: 0px -40px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+}
+.map_container a.dotvacant.selected {
+	background-position: 0px -40px;
+}
+.map_container a.dotvacant:hover {
+	background-position: 0px -20px;
+}
+
+.map_container .form_space {
+	position: absolute;
+	top: 265px;
+	left: 30px;
+}
+.map_container .detail_container {
+	position: absolute;
+	top: 120px;
+	left: -290px;
+	width: 240px;
+	height: 260px;
+}
+.map_container .number_detail {
+	position: absolute;
+	top: 0px;
+	width: 230px;
+	padding: 10px 0px 0px 12px;
+	border-left: 1px solid #a9b5c8;
+	border-top: 1px solid #a9b5c8;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.map_container .number_detail .office_photo {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0px 5px 3px #4e5d74;
+	-webkit-box-shadow: 0px 5px 3px #4e5d74;
+	-moz-box-shadow: 0px 5px 3px #4e5d74;
+	-webkit-border-radius: 8px;
+}
+.map_container .number_detail .office_info {
+	width: 160px;
+	float: left;
+}

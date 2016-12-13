@@ -1,0 +1,76 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{font-family:'Roboto Slab', serif;}
+
+
+
+.text-row {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+.col-img{
+	vertical-align: middle;
+    width: 90%;
+}
+
+
+.join-row{
+
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.join-text{
+	margin:0;
+	display: inline-block;
+	/*font-size: 12px;*/
+}
+
+.join-month{
+	margin:0;
+	display: inline-block;
+}
+
+
+/*
+All the rules defined here would get applied as long as 
+the width of the browser/phone called the viewport is greater
+than or equal to 1300px
+*/
+@media (min-width: 1300px) {
+.text-row {
+	min-height: 28em;
+
+}
+}
+
+
+/*
+All the rules defined here would get applied as long as 
+the width of the browser/phone called the viewport is less
+than or equal to 1300px
+*/
+@media (max-width: 1300px) {
+  .text-row { 
+    min-height: 35em;
+  }
+}

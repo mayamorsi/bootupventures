@@ -1,0 +1,446 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{font-family:'Roboto Slab', serif;}
+
+.vcenter {  }
+.learnmore{
+    background-color: transparent;
+    border: solid;
+    border-width: thin;
+    color: white;
+    padding: 7px 30px; 
+
+    display: inline-block;
+    /* font-size: 14px; */
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .fluid-on-mobile {
+        top: 50% !important;
+        width: 100% !important;
+    }
+}
+
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+.intro-section{
+    height: 700px;
+}
+
+.logomain{
+    width: 100%;
+}
+.maintitle{
+    font-size: 22px;
+}
+
+.firstrow {
+
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/home_hero.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+@media (max-width: 769px) {
+    .firstrow {
+        background-attachment: inherit;
+    }
+}
+
+.firsttitlerow{
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.navlogo{
+    width: 9em;
+    padding-left: 2em;
+}
+
+.titleblock{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20em;
+}
+
+
+
+.titleblk{
+    width: 100%;
+    text-align: center;
+    <!--top: 10em !important;-->
+    position: relative;
+  
+}
+
+.box{
+    height: 330px;
+    padding: 26px 0 0 0;
+}
+
+@media screen and (max-width: 1200px){
+
+    .col-lg-12{
+            width: 100%;
+        text-align: center;
+        top: 10em !important;
+        position: relative;
+
+    }
+
+    .titleblk{  
+        width: 100%;
+        text-align: center;
+        top: 15em !important;
+        position: relative;
+      
+    }
+}
+
+.space-blk {
+    
+    text-align: center;
+    background: url(../img/BootUP_space_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.events-blk {
+    
+    text-align: center;
+    background: url(../img/BootUP_events_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.experts-blk {
+    
+
+    text-align: center;
+    background: url(../img/BootUP_experts_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.club-blk {
+    
+
+    text-align: center;
+    background: url(../img/BootUP_club_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.accelorator-blk {
+    
+    text-align: center;
+    background: url(../img/BootUP_accelerator_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.corporate-blk {
+    
+    text-align: center;
+    background: url(../img/BootUP_corporate_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.capital-blk {
+    
+
+    text-align: center;
+    background: url(../img/BootUP_capital_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.angels-blk {
+    
+ 
+    text-align: center;
+    background: url(../img/BootUP_angels_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.academy-blk {
+    
+
+    text-align: center;
+    background: url(../img/BootUP_academy_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boxes{
+    text-align: center;
+    height: 400px !important;
+}
+
+.diffblock{
+text-align: center;
+}
+
+.box1 h2{
+    margin-top: 6px;
+}
+.box2 h2{
+margin-top: 6px;
+}
+.box3 h2{
+margin-top: 6px;
+}
+.box4 h2{
+    margin-top: 6px;
+}
+.box1{
+    background: transparent;
+    width: 255px;
+    height: 302px;
+    border: 1px solid #818181;
+    margin: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    display: inline-block;
+}
+.box2{
+background: transparent;
+    width: 255px;
+    height: 302px;
+    border: 1px solid #818181;
+    margin: 5px;
+    margin-right: 5%;
+    text-align: center;
+    display: inline-block
+}
+.box3{
+    background: transparent;
+    width: 255px;
+    height: 302px;
+    border: 1px solid #818181;
+    margin-right: 5%;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.box4{
+    background: transparent;
+    width: 255px;
+    height: 302px;
+    border: 1px solid #818181;
+    margin-left:5% !important;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.textoverdiv{
+    padding: 30% 10%;
+    text-align: center;
+    color:white;
+    z-index: 1
+}
+
+.spacediv{
+    background-color: rgb(203,141,84); 
+    opacity: .9;
+    
+    z-index: 0; 
+}
+
+.eventsdiv{
+    background-color: rgb(12,87,148); 
+    opacity: .9;
+    
+     
+    z-index: 0; 
+
+    
+}
+.right{
+    float: right;
+}
+
+
+
+.expertsdiv{
+    background-color: rgb(89,0,0); 
+    opacity: .9;
+     
+
+    z-index: 0;
+}
+
+.clubdiv{
+    background-color: rgb(81,27,16); 
+    opacity: .9;
+     
+
+    z-index: 0;
+    float: right;
+}
+
+.acceloratordiv{
+    background-color: 
+    rgb(255,169,0); 
+    opacity: .9;
+     
+
+    z-index: 0;
+
+}
+
+.corporatediv{
+    background-color: rgb(154,115,107); 
+    opacity: .9;
+     
+
+    z-index: 0;
+    float: right;
+}
+
+.capitaldiv{
+    background-color: rgb(0,67,113); 
+    opacity: .9;
+     
+
+    z-index: 0;
+}
+
+.angelsdiv{
+    background-color: rgb(21,27,52); 
+    opacity: .9;
+     
+
+    z-index: 0;
+    float: right;
+}
+
+.academydiv{
+    background-color: rgb(84,58,39); 
+    opacity: .9;
+     
+
+    z-index: 0;
+}
+.span{
+    font-size: 16px;
+
+}
+
+.footerdiv{
+    background-color: black;
+    padding: 5em;
+}
+
+.textp{
+    color: white;
+    display: inline-block;
+}
+
+.banner{
+   background: rgb(21,27,52);
+   padding: 5% 10%;
+}
+.submitbtn{
+    background-color: transparent;
+    border: solid;
+    border-width: thin;
+    color: white;
+    padding: 6px 30px; 
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fbIcon{
+    width: 3em;
+}
+
+.twitterIcon{
+    width: 3em;
+}
+
+.footerLogo1{
+    width: 26em;
+    padding: 3% 15%;
+}
+.phone{
+    display: inline-block;
+    padding: 2% 1% 5% 0;
+    width: 2em;
+}
+.location{
+    display: inline-block;
+    padding: 2% 1% 5% 3%;
+    width: 3em;
+}
+
+@media (min-width: 992px){
+    .ftrnbr{
+        padding-top: 1em;
+        width: 23%;
+    }
+    .ftrlctn{
+        padding-top: 1em;
+        width: 21%;
+    }
+}
+
+.list-inline{
+    float: right;
+    right: 0;
+}
+
+.copyrt{
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+}
+
+.part2{
+    /*padding-left: 21em;*/
+    width: 36em;
+}
+
+.part3{
+
+    width: 12em;
+}
+
+@media (max-width: 767px){
+
+}
+
+
+@media (max-width: 400px) {
+    .box {height: auto;}
+}

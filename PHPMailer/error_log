@@ -1,0 +1,59 @@
+[17-Oct-2016 18:04:50 UTC] PHP Fatal error:  Call to a member function IsSMTP() on a non-object in /home/affgroup/public_html/bootup/PHPMailer/experts.php on line 30
+[17-Oct-2016 18:07:28 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:07:50 UTC] PHP Fatal error:  Call to a member function IsSMTP() on a non-object in /home/affgroup/public_html/bootup/PHPMailer/experts.php on line 30
+[17-Oct-2016 18:08:21 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:08:21 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:11:25 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:12:44 UTC] PHP Fatal error:  Call to a member function IsSMTP() on a non-object in /home/affgroup/public_html/bootup/PHPMailer/experts.php on line 30
+[17-Oct-2016 18:14:00 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:14:00 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:14:19 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:14:48 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:14:55 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): a' in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php:869
+Stack trace:
+#0 /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php(809): PHPMailer->addOrEnqueueAnAddress('to', 'a', '')
+#1 /home/affgroup/public_html/bootup/PHPMailer/contacts.php(31): PHPMailer->addAddress('a', '')
+#2 {main}
+  thrown in /home/affgroup/public_html/bootup/PHPMailer/class.phpmailer.php on line 869
+[17-Oct-2016 18:14:59 UTC] PHP Fatal error:  Call to a member function IsSMTP() on a non-object in /home/affgroup/public_html/bootup/PHPMailer/experts.php on line 30
+[17-Oct-2016 18:17:43 UTC] PHP Fatal error:  Call to a member function IsSMTP() on a non-object in /home/affgroup/public_html/bootup/PHPMailer/experts.php on line 31

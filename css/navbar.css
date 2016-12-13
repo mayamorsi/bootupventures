@@ -1,0 +1,67 @@
+.navbar-nav li a {
+    padding: 14px 5%;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white !important;
+}
+.navbar-default {
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0.9;
+    border: none;
+}
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+    table-layout: auto;
+    float: none;
+    width: 100%;
+}
+
+.navbar-nav > li {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-right: 19px;
+    text-align: center;
+}
+@media (max-width: 1025px) {
+    .navbar-nav > li {display: block;}
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.navbar-collapse {
+    border: none;
+}
+.navbar-brand {
+    border: none;
+    margin: 0 20px;
+}
+.navbar-toggle {
+    margin: 22px;
+}
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: none;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 0px;
+    background-color: white !important;
+}

@@ -1,0 +1,275 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+p{font-family:'Roboto Slab', serif;}
+
+
+.a{
+    color: #818181 !important;
+    font-weight: 400 !important;
+
+}
+
+.eventp{
+    color: #818181 !important;
+    line-height: 1.8;
+    font-weight: 100;
+    text-align: start;
+}
+
+.content-section-events {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+ /*   position: absolute;*/
+    background-attachment: fixed;
+	background-size: cover !important;
+    background: url(../img/BootUP_events_bg.jpg) no-repeat center center;
+}
+
+.eventsdiv{
+    top: 24em;
+    background-color: rgb(12,87,148);
+    opacity: .9;
+    height: 400px;
+    width: 41em;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
+
+.eventstext{
+	position: absolute;
+    padding-right: 5em;
+    text-align: center;
+
+}
+
+.eventside{
+    float: right !important;
+    height: 300px;
+}
+
+
+.eventsdiv section-heading{
+margin-top:40px;
+}
+
+
+
+.textoverevents{
+	padding: 7% 17% 16%13%;
+}
+
+.eventbriteAPI{
+	color: #818181;
+	text-align: left;
+}
+.squareunder1{
+    background-color: rgb(12,87,148);
+    /*opacity: .9;*/
+    /*height: 34px;*/
+    /*width: 166px;*/
+    /*top: -2.7em;*/
+    /*z-index: 1;*/
+    /*position: relative;*/
+    /*left: 25px;*/
+    opacity: .9;
+    height: 34px;
+    width: 166px;
+    top: -41px;
+    z-index: 1;
+    left: 3%;
+    position: relative;
+}
+
+.squareunder2{
+    background-color: rgb(12,87,148);
+    /*opacity: .9;*/
+    /*height: 34px;*/
+    /*width: 166px;*/
+    /*top: -41px;*/
+    /*z-index: 1;*/
+    /*position: relative;*/
+    /*left:15px;*/
+    opacity: .9;
+    height: 34px;
+    width: 166px;
+    top: -41px;
+    z-index: 1;
+    left: 3%;
+    position: relative;
+}
+.squareunder3{
+    background-color: rgb(12,87,148);
+    /*opacity: .9;*/
+    /*height: 37px;*/
+    /*width: 253px;*/
+    /*top: -41px;*/
+    /*z-index: 1;*/
+    /*position: relative;*/
+    /*left:15px;*/
+    opacity: .9;
+    height: 34px;
+    width: 255px;
+    top: -41px;
+    z-index: 1;
+    left: 3%;
+    position: relative;
+}
+
+.squareunder3 h3{
+	font-size: 16px;
+}
+
+/*.col-md-6{
+	float: right;
+	height: 400px;
+}*/
+
+.btn11{
+    float: left !important;
+    margin-left: 16px;
+}
+
+.middletexth1{
+    font-size: 27px;
+    padding: 0 3em 2em 3em;
+    text-align: center;
+    color: #818181;
+
+}
+.colorp{
+	color: rgb(12,87,148) !important;
+    text-align: start;
+}
+
+.col1{
+	width: 80%;
+	min-height: 32em;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.col1 p{
+	color: #818181;
+}
+.col2 p{
+	color: #818181;
+}
+.col3 p{
+	color: #818181;
+}
+
+.col1 li{
+	color: #818181;
+}
+
+.col2 li{
+	color: #818181;
+
+}
+
+.col3 li{
+	color: #818181;
+}
+
+.col2{
+	min-height: 28em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.col3{
+	min-height: 28em;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.visitbtn{
+	background-color: transparent;
+    border: solid;
+    border-width: thin;
+    color: rgb(12,87,148);
+    padding: 10px 30px;
+
+    display: inline-block;
+    /* font-size: 14px; */
+    cursor: pointer;
+    left: 3%;
+    position: relative;
+    margin:4px 0;
+}
+
+.threecol{
+	margin-bottom: 3%;
+	position: absolute;
+
+}
+
+.buttonrow{
+	text-align: left;
+	padding-left: 2em;
+	padding-top: 2em;
+}
+
+.col1 .visitbtn{
+	padding: 7px 51px;
+}
+
+.threesec{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+
+.middletext{
+    text-align: center;
+    width: 54%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+}
+.firstcol{
+    width: 30% !important;
+    padding-left: 0 !important;
+}
+
+
+
+.cntcbtn{
+
+    background-color: transparent;
+    border: solid;
+    border-width: thin;
+    color: rgb(12,87,148);
+    float: left !important;
+    display: inline-block;
+    /* font-size: 14px; */
+    margin: 4px 0;
+    cursor: pointer;
+    padding: 10px 20px !important;
+    left: 3%;
+    position: relative;
+}
+
+
+
+
+
+
+

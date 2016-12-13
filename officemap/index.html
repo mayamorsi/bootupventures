@@ -1,0 +1,977 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BootUP World Interactive Map</title>
+   
+    
+    <link rel="stylesheet" type="text/css" href="includes/map.css"/>
+        <script type="text/javascript" src="includes/jquery-1.5.min.js"></script>
+        <script type="text/javascript" src="includes/interactive_map.js"></script>
+        
+         </head>
+    
+    <body>
+        
+        <h1 class="grey" style="font-size: 28px;">BootUP World Interactive Map</h1>
+        
+        <div class="map_container">
+            <a class="dot" style="top:610px; left:365px;" type="Office" number="174"></a>
+            <a class="dot" style="top:610px; left:335px;" type="Office" number="168"></a>
+            <a class="dot" style="top:610px; left:295px;" type="Office" number="167"></a>
+            <a class="dot" style="top:610px; left:255px;" type="Office" number="166"></a>
+            <a class="dot" style="top:610px; left:215px;" type="Office" number="165"></a>
+            <a class="dot" style="top:390px; left:215px;" type="Office" number="157"></a>
+            <a class="dot" style="top:420px; left:215px;" type="Office" number="156"></a>
+            <a class="dot" style="top:335px; left:355px;" type="Office" number="153"></a>
+            <a class="dotvacant" style="top:365px; left:355px;" type="Office" number="152"></a>
+            <a class="dotvacant" style="top:410px; left:355px;" type="Office" number="151"></a>
+            <a class="dot" style="top:210px; left:315px;" type="Office" number="145"></a>
+            <a class="dot" style="top:285px; left:280px;" type="Office" number="143"></a>
+            <a class="dot" style="top:210px; left:285px;" type="Office" number="142"></a>
+            <a class="dot" style="top:210px; left:245px;" type="Office" number="141"></a>
+            <a class="dot" style="top:285px; left:245px;" type="Office" number="140"></a>
+            <a class="dot" style="top:285px; left:200px;" type="Office" number="139"></a>
+            <a class="dot" style="top:210px; left:200px;" type="Office" number="138"></a>
+            <a class="dot" style="top:145px; left:195px;" type="Office" number="137"></a>
+            <a class="dot" style="top:145px; left:240px;" type="Office" number="136"></a>
+            <a class="dot" style="top:145px; left:285px;" type="Office" number="135"></a>
+            <a class="dot" style="top:135px; left:325px;" type="Office" number="134"></a>
+            <a class="dotvacant" style="top:135px; left:370px;" type="Office" number="133"></a>
+            <a class="dot" style="top:135px; left:415px;" type="Office" number="132"></a>
+            <a class="dot" style="top:135px; left:460px;" type="Office" number="131"></a>
+            <a class="dot" style="top:135px; left:505px;" type="Office" number="130"></a>
+            <a class="dot" style="top:135px; left:550px;" type="Office" number="129"></a>
+            <a class="dot" style="top:135px; left:595px;" type="Office" number="128"></a>
+            <a class="dotvacant" style="top:190px; left:505px;" type="Office" number="124"></a>
+            <a class="dotvacant" style="top:225px; left:505px;" type="Office" number="119"></a>
+            <a class="dot" style="top:225px; left:550px;" type="Office" number="118"></a>
+            <a class="dotvacant" style="top:225px; left:595px;" type="Office" number="117"></a>
+            <a class="dot" style="top:185px; left:665px;" type="Office" number="116"></a>
+            <a class="dot" style="top:225px; left:665px;" type="Office" number="115"></a>
+            <a class="dot" style="top:285px; left:665px;" type="Office" number="114"></a>
+            <a class="dot" style="top:315px; left:700px;" type="Office" number="112"></a>
+            <a class="dot" style="top:350px; left:700px;" type="Office" number="111"></a>
+            <a class="dot" style="top:400px; left:700px;" type="Office" number="109"></a>
+            <a class="dot" style="top:450px; left:700px;" type="Office" number="107"></a>
+            <a class="dot" style="top:500px; left:700px;" type="Office" number="106"></a>
+            <a class="dot" style="top:550px; left:700px;" type="Office" number="105"></a>
+            <a class="dot" style="top:610px; left:665px;" type="Office" number="104"></a>
+            <a class="dot" style="top:610px; left:630px;" type="Office" number="103"></a>
+            <a class="dot" style="top:610px; left:595px;" type="Office" number="102"></a>
+            
+         
+            
+
+            <!-- Form -->
+			<form id="mapForm" name="mapForm" class="form_space" method="post" action="">
+				<select name="space" id="space">
+					<option value="Office">Offices</option>
+					<option value="Desk">Desks</option>
+					<option value="ALL" selected="selected">Offices and Desks</option>
+				</select>
+			</form>
+            
+            <!-- Office details -->
+            
+            <div class="detail_container">
+                <!-- Office -->
+                <div class="office_detail">
+                    <h3>Choose and Office</h3>
+                    <p>Click on a dot to reveal the office details...</p>
+                
+                </div>
+            
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="office_detail_container">
+	<!-- Office -->
+	<div class="office_detail" id="174">
+		<img class="office_photo" src="images/offices/office174.jpg" alt="174" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>174</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3500/Mo</li>
+
+<li>Dimensions: 12.72'x 11.28'</li>
+
+<li>Square Feet: 143</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+		</div>
+	</div>
+	
+	<div class="office_detail" id="168">
+		<img class="office_photo" src="images/offices/office168.jpg" alt="168" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>174</h3>
+            <p>This office, located on the East side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This office features a white board coming covering the width of the wall. At 103.5 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    
+		</div>
+	</div><div class="office_detail" id="167">
+		<img class="office_photo" src="images/offices/office167.png" alt="167" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>168</h3>
+			<p>This Office is located on the East side of our facilty. Features a full wall of floor to ceiling windows making this one of the most sought after offices in our facilty. This office also featuresa whitboard covering an entire wall. At 105 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3300/Mo</li>
+
+<li>Dimensions: 11.12'x11.28'</li>
+
+<li>Square Feet: 125</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+   
+		</div>
+	</div><div class="office_detail" id="166">
+		<img class="office_photo" src="images/offices/office166.jpg" alt="166" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>167</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+        
+    </div>
+    
+    <div class="office_detail" id="165">
+		<img class="office_photo" src="images/offices/office165.jpg" alt="165" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>166</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+
+<div class="office_detail" id="157">
+		<img class="office_photo" src="images/offices/office157.jpg" alt="174" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>157</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+<div class="office_detail" id="156">
+		<img class="office_photo" src="images/offices/office156.jpg" alt="156" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>156</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="153">
+		<img class="office_photo" src="images/offices/office153.jpg" alt="153" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>153</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="152">
+		<img class="office_photo" src="images/offices/office152.png" alt="152" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>152</h3>
+			<p>This office is located on the interior of our facility and can fit up to 4 employees. Located directly adjacent to also vacant office 151 and conveniently close to our smaller co-working area. Other features include a whiteboard and an interior facing window.</p>
+<ul>
+<li>Price: $2800/Mo</li>
+
+<li>Dimensions: 11.04'x11.44'</li>
+
+<li>Square Feet: 126</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+		</div>
+	</div>
+
+<div class="office_detail" id="151">
+		<img class="office_photo" src="images/offices/office151.png" alt="151" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>151</h3>
+			<p>This office is located on the interior of our facility and can fit up to 4 employees. Located directly adjacent to also vacant office 152 and conveniently close to our smaller co-working area. Other features include a whiteboard and an interior facing window.</p>
+<ul>
+<li>Price: $2800/Mo</li>
+
+<li>Dimensions: 10.4'x11.44'</li>
+
+<li>Square Feet: 119</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    
+		</div>
+	</div>
+
+<div class="office_detail" id="145">
+		<img class="office_photo" src="images/offices/office146.jpg" alt="174" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>145</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+
+
+<div class="office_detail" id="143">
+		<img class="office_photo" src="images/offices/office143.jpg" alt="143" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>143</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<!-- Write your comments here -->
+
+
+<div class="office_detail" id="142">
+		<img class="office_photo" src="images/offices/office142.jpg" alt="142" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>142</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="141">
+		<img class="office_photo" src="images/offices/office141.jpg" alt="141" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>141</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<!-- Write your comments here -->
+
+<div class="office_detail" id="140">
+		<img class="office_photo" src="images/offices/office140.jpg" alt="140" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>140</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+<div class="office_detail" id="139">
+		<img class="office_photo" src="images/offices/office139.jpg" alt="139" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>139</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+
+
+<div class="office_detail" id="138">
+		<img class="office_photo" src="images/offices/office138.jpg" alt="138" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>138</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="137">
+		<img class="office_photo" src="images/offices/office137.jpg" alt="137" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>137</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="136">
+		<img class="office_photo" src="images/offices/office136.jpg" alt="136" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>136</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="135">
+		<img class="office_photo" src="images/offices/office135.jpg" alt="135" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>135</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+<div class="office_detail" id="134">
+		<img class="office_photo" src="images/offices/office134.jpg" alt="134" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>134</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="133">
+		<img class="office_photo" src="images/offices/office133.png" alt="133" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>133</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+		</div>
+	</div>
+
+
+<div class="office_detail" id="132">
+		<img class="office_photo" src="images/offices/office132.jpg" alt="132" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>132</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+<div class="office_detail" id="131">
+		<img class="office_photo" src="images/offices/office131.jpg" alt="131" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>131</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="130">
+		<img class="office_photo" src="images/offices/office130.jpg" alt="130" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>130</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+
+<div class="office_detail" id="129">
+		<img class="office_photo" src="images/offices/office129.jpg" alt="129" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>129</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="128">
+		<img class="office_photo" src="images/offices/office128.jpg" alt="128" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>128</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="124">
+		<img class="office_photo" src="images/offices/office124.jpg" alt="124" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>124</h3>
+			<p>This office is located in the furthest West wing of the building. Comes equipped with several columns od shelf space and is located conveniently close to several of our facilities' conference rooms. </p>
+<ul>
+<li>Price: $2800/Mo</li>
+
+<li>Dimensions: 9'x13'</li>
+
+<li>Square Feet: 117</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+   
+		</div>
+	</div>
+
+
+<div class="office_detail" id="119">
+		<img class="office_photo" src="images/offices/office119.png" alt="119" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>119</h3>
+			<p>This office, located on the interior of our facility on its own dedicated wing of 3 offices. Also located conveniently close to our community kitchen and the central restrooms. Other features include three walls of whiteboards and an interior facing window. At 153 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $2900/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 153.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="118">
+		<img class="office_photo" src="images/offices/office118.jpg" alt="118" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>118</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="117">
+		<img class="office_photo" src="images/offices/office117.png" alt="117" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>117</h3>
+            <p>This office, located on the interior of our facility on its own dedicated wing of 3 offices. Also located conveniently close to our community kitchen and the central restrooms. Other features include three walls of whiteboards and an interior facing window. At 143 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $2800/Mo</li>
+
+<li>Dimensions: 11.68'x12.24'</li>
+
+<li>Square Feet: 143</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+   
+		</div>
+	</div>
+
+<div class="office_detail" id="116">
+		<img class="office_photo" src="images/offices/office116.jpg" alt="116" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>116</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="115">
+		<img class="office_photo" src="images/offices/office115.jpg" alt="115" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>115</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="114">
+		<img class="office_photo" src="images/offices/office114.jpg" alt="114" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>114</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="112">
+		<img class="office_photo" src="images/offices/office112.jpg" alt="112" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>112</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="111">
+		<img class="office_photo" src="images/offices/office111.jpg" alt="111" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>111</h3>
+			<p>This office, located on the West side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $3200/Mo</li>
+
+<li>Dimensions: 9'x11.5'</li>
+
+<li>Square Feet: 103.5</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+    </p>
+		</div>
+	</div>
+
+<div class="office_detail" id="109">
+		<img class="office_photo" src="images/offices/office109.jpg" alt="109" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>109</h3>
+			<p>This office, located on the North side of our facility features a full wall of floor to ceiling windows allowing you to enjoy the benefits of natural lighting. This Office features a full wall of white board coming in the form of idea paint. At 103.5 square feet this office can fit up to 4 employees.
+<ul>
+<li>Price: $4500/Mo</li>
+
+<li>Dimensions: 15.84'x14.88'</li>
+
+<li>Square Feet: 236</li>
+
+<li>Max Occupancy: 6</li>
+    </ul>
+    
+  
+		</div>
+	</div>
+
+<div class="office_detail" id="107">
+		<img class="office_photo" src="images/offices/office107.jpg" alt="107" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>107</h3>
+			<p>This office, located on the North West portion of our facility features several exterior facing windows allowing you to enjoy the benefits of natural lighting. At 154 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3500/Mo</li>
+
+<li>Dimensions: 11.36'x13.6'</li>
+
+<li>Square Feet: 154</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+		</div>
+	</div>
+
+<div class="office_detail" id="106">
+		<img class="office_photo" src="images/offices/office106.jpg" alt="106" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>106</h3>
+			<p>This office, located on the North West portion of our facility features several exterior facing windows allowing you to enjoy the benefits of natural lighting. At 151 square feet this office can fit up to 4 employees.</p>
+<ul>
+<li>Price: $3500/Mo</li>
+
+<li>Dimensions: 11.36'x13.28'</li>
+
+<li>Square Feet: 151</li>
+
+<li>Max Occupancy: 4</li>
+    </ul>
+    
+   
+		</div>
+	</div>
+
+<div class="office_detail" id="105">
+		<img class="office_photo" src="images/offices/office105.jpg" alt="105" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>105</h3>
+			<p>This office, located on the North West corner of our facility features exterior facing windows on two walls allowing you to enjoy the benefits of natural lighting. At 233 square feet this office can fit up to 6 employees and is one of the larger offivces in our facility.</p>
+<ul>
+<li>Price: $5000/Mo</li>
+
+<li>Dimensions: 15.68'x14.88'</li>
+
+<li>Square Feet: 233</li>
+
+<li>Max Occupancy: 6</li>
+    </ul>
+    
+    
+		</div>
+	</div>
+
+<div class="office_detail" id="104">
+		<img class="office_photo" src="images/offices/office104.jpg" alt="104" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>104</h3>
+			<p>This office, located on the East side of our facility features an exterior facing window allowing you to enjoy the benefits of natural lighting. At 123 square feet this office can fit up to 2 employees. This office also enjoys the benfits of having it's own small loung area directly outside the office.</p>
+<ul>
+<li>Price: $2400/Mo</li>
+
+<li>Dimensions: 8.96'x13.76'</li>
+
+<li>Square Feet: 123</li>
+
+<li>Max Occupancy: 2</li>
+    </ul>
+    
+   
+		</div>
+	</div>
+
+<div class="office_detail" id="103">
+		<img class="office_photo" src="images/offices/office103.jpg" alt="103" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>103</h3>
+	<p>This office, located on the East side of our facility features an exterior facing window allowing you to enjoy the benefits of natural lighting. At 136 square feet this office can fit up to 2 employees. This office also enjoys the benfits of having it's own small loung area directly outside the office.</p>
+<ul>
+<li>Price: $2500/Mo</li>
+
+<li>Dimensions: 9.92'x13.76'</li>
+
+<li>Square Feet: 136</li>
+
+<li>Max Occupancy: 2</li>
+    </ul>
+    
+    
+		</div>
+	</div>
+
+<div class="office_detail" id="102">
+		<img class="office_photo" src="images/offices/office102.jpg" alt="102" width="300" height="300" />
+		<div class="office_info">
+			<h2>Private Office</h2>
+			<h3>102</h3>
+			<p>This office, located on the East side of our facility features an exterior facing window allowing you to enjoy the benefits of natural lighting. At 136 square feet this office can fit up to 2 employees. This office also enjoys the benfits of having it's own small loung area directly outside the office.</p>
+<ul>
+<li>Price: $2500/Mo</li>
+
+<li>Dimensions: 9.92'x13.76'</li>
+
+<li>Square Feet: 136</li>
+
+<li>Max Occupancy: 2</li>
+    </ul>
+    
+    
+		</div>
+	</div>
+
+
+</div>
+       
+    
+    
+    
+    
+    
+    </body>
+</html>
