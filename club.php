@@ -75,7 +75,7 @@
  </div>
  <section class="club-section club-section-padding club-section-1 text-center">
   <div class="container">
-   <h2>The Lore Of The Cuckoo's Nest</h2>
+   <h2>The Lore Of The Cuckoo's Nest at BootUP</h2>
    <p> The inspiration for Ken Kesey's book—One Flew Over the Cuckoo's Nest—came in the early 1960s while working the night shift at the Menlo Park Veterans Hospital on Willow Road in Menlo Park. "The patients were not insane, they just did not fit the conventional idea of how people are supposed to act,” he observed. Another local, Steve Jobs, took this observation a step further, “The people who are crazy enough to think they can change the world are the ones who do.” In this spirit, the Cuckoo’s Nest is to create an experience for leaders in innovation and business who are driven by an entrepreneurial and artistic spirit with a relaxed collaborative environment for the exchange ideas and concepts to grow.</p>
   </div>
  </section>
@@ -94,7 +94,7 @@
    <h2>Founding &amp; Charter Members</h2>
    <img class="section-icon" src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Members_Global_icon.png">
    <h3 style="text-align: center; font-size: 20px;  color: #40140D;">Thought leaders &amp; company builders</h3>
-   <p>The Cuckoo’s Nest has attracted some of the world's most innovative thinkers and successful entrepreneurs. The total individual membership is limited 1,200 global players; of which 51 percent are female, and 20 percent are under 30. Our members share a common vision that technology innovation empowers people by giving them more access to information and opportunity.</p>
+   <p>The Cuckoo's Nest at BootUP has attracted some of the world's most innovative thinkers and successful entrepreneurs. The total individual membership is limited 1,200 global players; of which 51 percent are female, and 20 percent are under 30. Our members share a common vision that technology innovation empowers people by giving them more access to information and opportunity.</p>
   </div>
  </section>
  <div class="club-section club-section-4 text-center" id="partner" style="width: 100%; height: 400px;background:url(http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Slide_Image.png); background-size: cover; background-attachment: fixed;">
