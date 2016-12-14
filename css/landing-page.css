@@ -725,7 +725,7 @@ p.copyright {
 .row-logo {text-align: -webkit-center;min-height: 150px;}
 
 .spacebut:hover {background-color: rgb(203,141,84);color: white;}
-
+.submitbtn { background:transparent;}
 @media (max-width: 800px) {
     .photo-space {height:600px;}
 }
