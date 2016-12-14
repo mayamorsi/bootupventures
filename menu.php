@@ -23,7 +23,7 @@
                 <li><a href="experts">EXPERTS</a></li>
                 <li><a href="academy">ACADEMY</a></li>
                 <li><a href="events">EVENTS</a></li>
-                <li><a href="http://cuckoosnestclub.com" target="_blank">PRIVATE CLUB</a></li>
+                <li><a href="club">PRIVATE CLUB</a></li>
                 <li><a href="team">TEAM</a></li>
             </ul>
         </div>
