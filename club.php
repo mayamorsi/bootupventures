@@ -19,16 +19,20 @@
 <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <style>
-.club, .club p, .club h2, .club h3 {
+.club, .club p, .club h2, .club h3, .hero-caption h1 {
 	font-family: Roboto Slab !important;
 }
 .club p {
 	font-size: 17px;
 }
-.club .block1 {
+.club .masthead {
 	background: url('http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Slide_ImageHero.png') no-repeat 0 0;
 	height: 500px;
 }
+.hero-caption { background:rgba(0,0,0,.5); margin-top:-190px; display:inline-block; padding:85px 100px; max-width:580px; text-align:center; position:relative; top:-100px; color:#fff;}
+.hero-caption h1 { color:#f3cc60; font-size:50px; margin:0;}
+.hero-caption h3 { font-size:30px;}
+.hero-caption span { font-size:24px;}
 .section-icon {
 	width: 75px;
 }
@@ -69,14 +73,18 @@
 <body>
 <?PHP include 'menu.php'; ?>
 <div class="wrapper club">
- <div class="block1">
-  <div class="rect">
-   <h2>Team</h2>
-   <p>The BootUP team consists of serial entrepreneurs, investors, corporate executives and operations experts that have come together to build one of the most powerful entrepreneurial ecosystems in the world. </p>
+ <div class="masthead">
+  <div class="container">
+ 
   </div>
  </div>
  <section class="club-section club-section-padding club-section-1 text-center">
   <div class="container">
+   <div class="hero-caption">
+  <h1>Cuckoos Nest <br/>at BootUP</h1>
+  <p>Enjoy<span>.</span> Experience<span>.</span> Connect</p>
+  <h3>To the exclusive BootUP Member Network</h3>
+  </div>
    <h2>The Lore Of The Cuckoo's Nest at BootUP</h2>
    <p> The inspiration for Ken Kesey's book—One Flew Over the Cuckoo's Nest—came in the early 1960s while working the night shift at the Menlo Park Veterans Hospital on Willow Road in Menlo Park. "The patients were not insane, they just did not fit the conventional idea of how people are supposed to act,” he observed. Another local, Steve Jobs, took this observation a step further, “The people who are crazy enough to think they can change the world are the ones who do.” In this spirit, the Cuckoo’s Nest is to create an experience for leaders in innovation and business who are driven by an entrepreneurial and artistic spirit with a relaxed collaborative environment for the exchange ideas and concepts to grow.</p>
   </div>
