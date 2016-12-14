@@ -58,6 +58,8 @@
 .club-section-2 h3 {
 	font-size: 20px;
 }
+.club-section-3 h3 { font-size:20px;}
+.club-section-3 h2, .club-section-3 h3 { color:#40140d;}
 .club-section-6 {
 	background-color: #1c1514;
 	color: #fff;
@@ -93,7 +95,7 @@
   <div class="container">
    <h2>Founding &amp; Charter Members</h2>
    <img class="section-icon" src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Members_Global_icon.png">
-   <h3 style="text-align: center; font-size: 20px;  color: #40140D;">Thought leaders &amp; company builders</h3>
+   <h3>Thought leaders &amp; company builders</h3>
    <p>The Cuckoo's Nest at BootUP has attracted some of the world's most innovative thinkers and successful entrepreneurs. The total individual membership is limited 1,200 global players; of which 51 percent are female, and 20 percent are under 30. Our members share a common vision that technology innovation empowers people by giving them more access to information and opportunity.</p>
   </div>
  </section>
