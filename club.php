@@ -14,12 +14,14 @@
 
 <!-- Custom CSS -->
 <link href="css/landing-page.css" rel="stylesheet">
-
+<!-- Animate CSS  -->
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen">
 <!-- Custom Fonts -->
-<!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>
+<div class="overlay"></div>
+<a href="javascript:void(0)" class="cta-invite"><img src="img/InviteMail_icon.png" alt=""></a>
 <?PHP include 'menu.php'; ?>
 <div class="wrapper club">
 	<div class="masthead">
@@ -28,7 +30,7 @@
 	<section class="club-section club-section-padding club-section-1 text-center">
 		<div class="container">
 			<div class="hero-caption">
-			<div class="leaf-bg"><img src="img/leaf.png" alt=""></div>
+				<div class="leaf-bg"><img src="img/leaf.png" alt=""></div>
 				<h1>Cuckoos Nest <br/>
 					at BootUP</h1>
 				<p>Enjoy<span>.</span> Experience<span>.</span> Connect</p>
@@ -111,15 +113,67 @@
 				</div>
 			</div>
 			<br/>
-			<a href="http://www.cuckoosnestclub.com/cuckoos-nest-membership/">
 			<button type="Registerbutton" class="regButton" style="text-align: center; background: #d84100; border-style: none; color: white;">Register Now</button>
-			</a> </div>
+			</div>
 	</section>
+</div>
+<div class="form-modelpopup"> <a href="javascript:void(0)" class="cta-close"> <span class="glyphicon glyphicon-remove"></span></a> 
+<h2>Cuckoo's Nest Membership</h2>
+	<!-- Start Contact Form -->
+	<form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+	<div class="form-group">
+		<div class="controls">
+			<input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<input type="text" id="msg_phone" class="form-control" placeholder="Phone" required data-error="Please enter your phone number">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<input type="text" id="msg_linkdin" class="form-control" placeholder="Linkdin URL" required data-error="Please enter linkdin url">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<input type="text" id="msg_referred" class="form-control" placeholder="Referred by" required data-error="Please enter referred by">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<input type="text" id="msg_relation" class="form-control" placeholder="Relationship" required data-error="Please enter relationship">
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="controls">
+			<textarea id="message" rows="7" placeholder="Tell us about yourself,  accomplishments, and motivation" class="form-control" required data-error="Tell us about yourself,  accomplishments, and motivation"></textarea>
+			<div class="help-block with-errors"></div>
+		</div>
+	</div>
+	<button type="submit" id="submit" class="btn"></i> Send Message</button>
+	<div id="msgSubmit" class="h3 text-center hidden"></div>
+	<div class="clearfix"></div>
+	</form>
+	<!-- End Contact Form --> 
 </div>
 <?PHP include 'footer.php'; ?>
 <!-- jQuery --> 
 <script src="js/jquery.js"></script> 
-
+<script type="text/javascript" src="assets/js/form-validator.min.js"></script> 
+<script type="text/javascript" src="assets/js/contact-form-script.js"></script> 
 <!-- Bootstrap Core JavaScript --> 
 <script src="js/bootstrap.min.js"></script>
 </body>
