@@ -801,3 +801,99 @@ p.copyright {
 @media (min-width: 1025px) {
     #block-subscribe {display:block;}
 }
+
+/* Club page*/
+.club, .club p, .club h2, .club h3, .hero-caption h1 {
+  font-family: Roboto Slab !important;
+}
+.club p {
+  font-size: 17px;
+}
+.club .masthead {
+  background: url('http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Slide_ImageHero.png') no-repeat 0 0;
+  height: 500px;
+}
+.hero-caption {
+  background: rgba(0,0,0,.5);
+  margin-top: -190px;
+  display: inline-block;
+  padding: 85px 100px;
+  max-width: 580px;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  color: #fff;
+}
+.hero-caption h1 {
+  color: #f3cc60;
+  font-size: 50px;
+  margin: 0;
+}
+.hero-caption h3 {
+  font-size: 28px;
+}
+.hero-caption span {
+  font-size: 24px;
+}
+.section-icon {
+  width: 75px;
+}
+.feature-img {
+  width: 100%;
+  height: auto;
+}
+.regButton {
+  padding: 10px 30px;
+}
+.club-section-padding {
+  padding: 50px;
+}
+.club-section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.club-section-2, .club-section-4, .club-section-6 {
+  color: #fff;
+}
+.club-section-1 h2 {
+  color: #bc7642;
+}
+.club-section-2 h2, .club-section-4 h2, .club-section-6 h2, .club-section-2 h3 {
+  color: #f3cc60;
+}
+.club-section-2 h3 {
+  font-size: 20px;
+}
+.club-section-3 h3 {
+  font-size: 20px;
+}
+.club-section-3 h2, .club-section-3 h3 {
+  color: #40140d;
+}
+.club-section-6 {
+  background-color: #1c1514;
+  color: #fff;
+}
+@media (max-width:767px) {
+ .navbar-toggle { margin-left:0;} 
+.club-section-padding {
+  padding: 50px 0;
+}
+.hero-caption {
+  margin-top: -190px;
+  display: inline-block;
+  padding: 10%;
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: -100px;
+  color: #fff;
+}
+.hero-caption h1 {
+  font-size: 30px;
+}
+.hero-caption h3 {
+  font-size: 18px;
+}
+}
