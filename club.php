@@ -28,6 +28,7 @@
 	<section class="club-section club-section-padding club-section-1 text-center">
 		<div class="container">
 			<div class="hero-caption">
+			<div class="leaf-bg"><img src="img/leaf.png" alt=""></div>
 				<h1>Cuckoos Nest <br/>
 					at BootUP</h1>
 				<p>Enjoy<span>.</span> Experience<span>.</span> Connect</p>

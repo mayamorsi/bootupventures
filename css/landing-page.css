@@ -1317,7 +1317,8 @@ p.copyright {
   font-size: 17px;
 }
 .club .masthead {
-  background: url('../img/Slide_ImageHero.png') no-repeat 0 0;
+  background: url('../img/hero.jpg') no-repeat center center;
+  background-size: cover;
   height: 500px;
 }
 .hero-caption {
@@ -1325,11 +1326,21 @@ p.copyright {
   margin-top: -190px;
   display: inline-block;
   padding: 85px 100px;
-  max-width: 580px;
+  max-width: 600px;
   text-align: center;
   position: relative;
   top: -100px;
   color: #fff;
+}
+.leaf-bg {
+  position: absolute;
+  opacity: .25;
+  width: 280px;
+  top: 20px;
+}
+.leaf-bg img {
+  width: 100%;
+  height: auto;
 }
 .hero-caption h1 {
   color: #f3cc60;
