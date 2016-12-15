@@ -32,6 +32,10 @@ color: white;}
 
 }
 
+#hoverLinks:hover{
+    opacity: .5;
+}
+
 .spacep{
     color: #818181;
     font-weight: 400 !important;
@@ -115,6 +119,10 @@ color: white;}
 .belowspace{
 	text-align: center;
 margin-left: 30%;
+color: #919191;
+}
+#addy:hover{
+    opacity: .5;
 }
 
 .entrepreneur{

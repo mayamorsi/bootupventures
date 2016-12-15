@@ -13,7 +13,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse" style="max-height: 100%;">
             <ul class="nav navbar-nav">
-                <li class="hidden-xs"><a href="/"><img height="24" src="img/BootUP_logo_header@2x.png"></a></li>
+                <li class="hidden-xs"><a href="/"><img height="24" src="img/BootUP_logo_white_blue.png"></a></li>
                 
                 <li><a href="space">CO-WORKING</a></li>
                 <li><a href="accelerator">ACCELERATOR</a></li>
@@ -23,7 +23,7 @@
                 <li><a href="experts">EXPERTS</a></li>
                 <li><a href="academy">ACADEMY</a></li>
                 <li><a href="events">EVENTS</a></li>
-                <li><a href="club">PRIVATE CLUB</a></li>
+                <li><a href="http://cuckoosnestclub.com" target="_blank">PRIVATE CLUB</a></li>
                 <li><a href="team">TEAM</a></li>
             </ul>
         </div>

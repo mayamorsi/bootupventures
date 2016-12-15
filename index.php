@@ -154,7 +154,7 @@
             <a href="contacts.php"><div class="circle-index">CONTACT US</div></a>
                 <div class="logoblock">
                     
-                    <img src="img/BootUP_logo@2x.png" alt="logo">
+                    <img src="img/BootUP_logo_white_blue.png" alt="logo">
                     
                     <h3>THE GLOBAL SERIAL ENTREPRENEURAL ECOSYSTEM</h3>
                 </div>

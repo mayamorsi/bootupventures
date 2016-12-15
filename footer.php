@@ -9,16 +9,16 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <a href="index"><img style="padding: 8%; width: 15em;" src="img/BootUP_logo_header@2x.png"></a>
+                <a href="index"><img style="padding: 8%; width: 15em;" src="img/BootUP_logo_white_blue.png"></a>
             </div>
             <div class="col-md-3 ftrnbr" style="padding-top: 2em;">
                 <img style="width: 25px;padding-right: 5px;" src="img/phone_icon@2x.png.png">
                 +1 800.493.1945
             </div>
             <div class="col-md-3 ftrlctn" style="padding-top: 2em;">
-                <img style="width: 25px;padding-right: 5px;" src="img/location_icon@2x.png.png">
+                <a href="https://www.google.com/maps/dir//68+Willow+Rd,+Menlo+Park,+CA+94025/@37.4522412,-122.1683367,17z/data=!4m16!1m7!3m6!1s0x808fbb49283e5c9d:0x8b91b08c1504a27f!2s68+Willow+Rd,+Menlo+Park,+CA+94025!3b1!8m2!3d37.4522412!4d-122.166148!4m7!1m0!1m5!1m1!1s0x808fbb49283e5c9d:0x8b91b08c1504a27f!2m2!1d-122.166148!2d37.4522412" target="_blank"><img style="width: 25px;padding-right: 5px;" src="img/location_icon@2x.png.png">
                 68 Willow Rd, Menlo Park, CA 94025, USA
-            </div>
+            </div></a>
             <br class="visible-xs-block">
             <div class="visible-xs-block">
                 <a href="https://twitter.com/BootUpVentures" target="_blank"><img style="width: 40px;position:relative;top:5px" src="img/twitter_icon_white@2x.png.png"></a>

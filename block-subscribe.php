@@ -23,6 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div style="display: inline-block;">
             <form id="form-subs" onsubmit="return false;">
                 <input name="email" type="email" placeholder="Email" style="width:320px; color: #4c4c4c !important; border: none; padding: 4px; font-weight: 300;">
-                <input type="submit" class="submitbtn" value="SUBSCRIBE" onclick="subs()" style="border-style: solid;border-width: thin; padding: 7px 30px; margin: 6px 10px; font-weight: 500;">
+                <input type="submit" class="submitbtn" value="SUBSCRIBE" onclick="subs()" style="border-style: solid;border-width: thin;background-color: #393939; padding: 7px 30px; margin: 6px 10px; font-weight: 500;">
             </form>
         </div>
         <div style="text-align: end;display: inline-block;padding-left: 5%;color:#050505;cursor:pointer;" id="close">X</div>
