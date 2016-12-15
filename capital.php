@@ -24,13 +24,13 @@
 <!--        <div class="col-md-push-3 col-md-2" id="t3"><a href="#">LIMITED PARTNERS</a></div>-->
 <!--    </div>-->
     <?php include 'menu.php'; ?>
-    <div class="logo1" style="background: transparent;width: 400px;"><img src="img/BootUP_Capital_logo.svg"></div>
+    
     <div class="col-md-12 divcontain">
         <div class="row">
             <div class="capitaldiv">
-                <div class=""></div>
                 <div class="clearfix"></div>
                 <div class="textovercapital">
+                <div class="logo1" style="background: transparent;width: 400px;"><img src="img/BootUP_Capital_logo.svg"></div>
                     <div>BootUp Capital works with “Outsider” founders coming from outside the traditional Silicon Valley Ecosystem.</div>
                     <br>
                     <br>
