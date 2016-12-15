@@ -37,11 +37,11 @@
 			<p> The inspiration for Ken Kesey's book—One Flew Over the Cuckoo's Nest—came in the early 1960s while working the night shift at the Menlo Park Veterans Hospital on Willow Road in Menlo Park. "The patients were not insane, they just did not fit the conventional idea of how people are supposed to act,” he observed. Another local, Steve Jobs, took this observation a step further, “The people who are crazy enough to think they can change the world are the ones who do.” In this spirit, the Cuckoo’s Nest is to create an experience for leaders in innovation and business who are driven by an entrepreneurial and artistic spirit with a relaxed collaborative environment for the exchange ideas and concepts to grow.</p>
 		</div>
 	</section>
-	<section class="club-section club-section-2 text-center" id="nest" style="width: 100%; min-height: 400px;  background:url(http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Slide_Image02.png); background-size: cover; background-attachment: fixed;">
+	<section class="club-section club-section-2 text-center" id="nest">
 		<div class="container">
 			<div class="club-section-padding">
 				<h2>The Nest</h2>
-				<img class="section-icon" src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/TheNest_Leaficon.png">
+				<img class="section-icon" src="img/TheNest_Leaficon.png">
 				<h3>Member Values &amp; Benefits</h3>
 				<p>Key to our success will be the quality and caliber of our members. Our members have the knowledge and experience to actively contribute to others. We will provide a unique experience and programs to stimulate engagement by all members. We will strive for operational excellence in all aspects of our business. We are always profitable and we approach every aspect of the business with a positive, can do our attitude. There is a commitment to always foster and accept the spirit of disruption within the framework of good taste. As members we will abide by a code of mutual respect and trust for each other.</p>
 			</div>
@@ -50,16 +50,16 @@
 	<section class="club-section club-section-padding club-section-3 text-center" id="founding">
 		<div class="container">
 			<h2>Founding &amp; Charter Members</h2>
-			<img class="section-icon" src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Members_Global_icon.png">
+			<img class="section-icon" src="img/Members_Global_icon.png">
 			<h3>Thought leaders &amp; company builders</h3>
 			<p>The Cuckoo's Nest at BootUP has attracted some of the world's most innovative thinkers and successful entrepreneurs. The total individual membership is limited 1,200 global players; of which 51 percent are female, and 20 percent are under 30. Our members share a common vision that technology innovation empowers people by giving them more access to information and opportunity.</p>
 		</div>
 	</section>
-	<div class="club-section club-section-4 text-center" id="partner" style="width: 100%; min-height: 400px;background:url(http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Slide_Image.png); background-size: cover; background-attachment: fixed;">
+	<div class="club-section club-section-4 text-center" id="partner">
 		<div class="container">
 			<div class="club-section-padding">
 				<h2>Founding Partners</h2>
-				<img class="section-icon" src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Partners_Handshake_icon.png">
+				<img class="section-icon" src="img/Partners_Handshake_icon.png">
 				<h3 style="text-align: center; font-size: 20px;  color: #F3CC60;">Championing the entrepreneurial dream</h3>
 				<p>The Nest’s Founding Partners are the leading brands in professional services, technology, high-end consumer products, and media. Like our members, these top brands have a stake in global innovation and the companies and entrepreneurs creating our future.</p>
 			</div>
@@ -70,24 +70,24 @@
 			<h2>Sponsors</h2>
 			<div class="row">
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"> <a href="https://www.opusbank.com/" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/opus-bank-logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a> </div>
+					<div class="img-box figcaption-middle text-center fade-in"> <a href="https://www.opusbank.com/" target="_blank"> <img src="img/opus-bank-logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a> </div>
 				</div>
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"> <a href="http://www.sheppardmullin.com/" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/sheppard-logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a> </div>
+					<div class="img-box figcaption-middle text-center fade-in"> <a href="http://www.sheppardmullin.com/" target="_blank"> <img src="img/sheppard-logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a> </div>
 				</div>
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"><a href="https://www.morganlewis.com/" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/MorganLewis-logo-01.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
+					<div class="img-box figcaption-middle text-center fade-in"><a href="https://www.morganlewis.com/" target="_blank"> <img src="img/MorganLewis-logo-01.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"><a href="https://www.manatt.com/" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/manatt_logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a></div>
+					<div class="img-box figcaption-middle text-center fade-in"><a href="https://www.manatt.com/" target="_blank"> <img src="img/manatt_logo.jpg" alt="" class="feature-img " style="visibility: visible;"></a></div>
 				</div>
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"><a href="https://home.kpmg.com/us/en/home.html" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/KPMG2000x779.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
+					<div class="img-box figcaption-middle text-center fade-in"><a href="https://home.kpmg.com/us/en/home.html" target="_blank"> <img src="img/KPMG2000x779.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
 				</div>
 				<div class="col-md-4 col-sm-6" style="padding:5%;">
-					<div class="img-box figcaption-middle text-center fade-in"><a href="http://www.luxembourgforbusiness.lu/en" target="_blank"> <img src="http://cuckoosnest.afamilyfriendgroup.org/wp-content/uploads/2016/10/Luxembourg-for-Business.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
+					<div class="img-box figcaption-middle text-center fade-in"><a href="http://www.luxembourgforbusiness.lu/en" target="_blank"> <img src="img/Luxembourg-for-Business.png" alt="" class="feature-img " style="visibility: visible;"></a></div>
 				</div>
 			</div>
 			<a href="http://www.cuckoosnestclub.com/companies/">
